@@ -38,6 +38,7 @@ plot2 <- function(){
         plot(consumption$date_time, 
              consumption$Global_active_power, 
              type ="l", 
-             ylab = "Global Active Power (kilowatts)")
+             ylab = "Global Active Power (kilowatts)",
+             xlab ="")
         dev.off()
 }
